@@ -6,10 +6,12 @@ with open('README.md', 'r') as fh:
 
 
 setuptools.setup(
-    name='sphinx-ext-eqt',
-    version='1.4',
+    name='sphinxcontrib-questionnaire',
+    version='2.0',
     author='Naeka',
     author_email='contact@naeka.fr',
+    maintainer="Benedikt Magnusson",
+    maintainer_email="bsm@hi.is",
     description="A sphinx extension to integrate multiple choices "
                 "questionnaires",
     long_description=long_description,
@@ -31,4 +33,5 @@ setuptools.setup(
         'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Topic :: Utilities',
     ),
+    namespace_packages=["sphinxcontrib"],
 )
