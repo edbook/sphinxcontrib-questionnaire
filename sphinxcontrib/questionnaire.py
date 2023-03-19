@@ -22,7 +22,6 @@
 # This project is based upon the work on the Reauthoring toolkit
 # Author: Naeka
 #
-import os
 
 from __future__ import unicode_literals
 
@@ -31,6 +30,7 @@ from docutils.parsers.rst import roles, Directive
 from docutils.parsers.rst.directives.admonitions import BaseAdmonition
 from docutils.parsers.rst.roles import set_classes
 
+import os
 
 class EqtAnswerType(nodes.General, nodes.Element):
     pass

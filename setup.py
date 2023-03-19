@@ -7,7 +7,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='sphinxcontrib-questionnaire',
-    version='2.0.7',
+    version='2.0.8',
     author='Naeka',
     author_email='contact@naeka.fr',
     maintainer="Benedikt Magnusson",
