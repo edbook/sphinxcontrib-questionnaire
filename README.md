@@ -16,3 +16,4 @@ Static files are not handled by extensions, to properly display the questionnair
 from eqt_ext import get_eqt_ext_static_dir
 html_static_path = ['<your_project_static_dir>', get_eqt_ext_static_dir()]
 ```
+Froked from https://github.com/naeka/sphinx-ext-eqt
