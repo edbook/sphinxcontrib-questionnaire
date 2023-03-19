@@ -22,6 +22,7 @@
 # This project is based upon the work on the Reauthoring toolkit
 # Author: Naeka
 #
+import os
 
 from __future__ import unicode_literals
 
@@ -34,6 +35,8 @@ from docutils.parsers.rst.roles import set_classes
 class EqtAnswerType(nodes.General, nodes.Element):
     pass
 
+def get_eqt_ext_static_dir():
+    return os.path.join(os.path.dirname(__file__), '_static')
 
 def visit_eqt_answer_type_node(self, node):
     """
