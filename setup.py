@@ -12,6 +12,7 @@ setuptools.setup(
     author_email='contact@naeka.fr',
     maintainer="Benedikt Magnusson",
     maintainer_email="bsm@hi.is",
+    namespace_packages=["sphinxcontrib"],
     description="A sphinx extension to integrate multiple choices "
                 "questionnaires",
     long_description=long_description,
@@ -21,8 +22,8 @@ setuptools.setup(
     include_package_data=True,
     data_files=[
         ('_static', [
-            'eqt_ext/_static/css/eqt.css',
-            'eqt_ext/_static/js/eqt.js',
+            'sphinxcontrib/_static/css/eqt.css',
+            'sphinxcontrib/_static/js/eqt.js',
         ])
     ],
     classifiers=(
@@ -33,5 +34,4 @@ setuptools.setup(
         'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Topic :: Utilities',
     ),
-    namespace_packages=["sphinxcontrib"],
 )
