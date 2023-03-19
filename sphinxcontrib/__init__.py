@@ -1,6 +1,6 @@
 import os
 
-name = 'questionnaire'
+#name = 'questionnaire'
 __import__("pkg_resources").declare_namespace(__name__)
 
 def get_eqt_ext_static_dir():
